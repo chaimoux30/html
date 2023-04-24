@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>curriculum vitae</title>
+
+  <title>curriculum vitae</title>
+    
+    <!--alech mabetech tekhdem ?-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
 </head>
 
 <body>
-    <a href="#M">contact</a>
+   
 
 <br>
 <table border="1">
       <tr>
-       <th> <a href="#x">Diplômes et Formation</a></th>
+       <th class="table"> <a href="#x">Diplômes et Formation</a></th>
        <!--  w lena bech nedi el x namlelha href="#x" (b)-->
-        <th> <a href="#y">Expériences professionnelles</a></th>
-        <th> <a href="#z">Mes Competences </a></th>
+        <th class="table"> <a href="#y">Expériences professionnelles</a></th>
+        <th class="table"> <a href="#z">Mes Competences </a></th>
+        <th class="table"><a href="#M">contact</a></th>
       
       </tr>
     </table>
 
     <h1>curriculum vitae</h1>
     <br>
-    <img src="./Nouveau dossier/337858463_3466979070215802_3488295230150555034_n.jpg" alt="Chaima Bouhlel" width=200 height=300>
+    <img style="border-radius:20px ; border: 2px solid black;" src="./Nouveau dossier/337858463_3466979070215802_3488295230150555034_n.jpg" alt="Chaima Bouhlel" width=200 height=300>
     <br>
-    <p><b>Chaima Bouhlel</b></p>
+    <h2><b>Chaima Bouhlel</b></h2>
 
     <a name="x"></a>  <!-- nsami ala nheb nemchilha ay esm eni samitou x w nektebha juste fok el haja ala bech nemchilha(a) -->
-<i><b>Diplômes et Formations :</b></i>
+<h3 class="title"><b>Diplômes et Formations :</b></h3>
 <ul type="square">
 <br>
 <br>
-
+<div class="box">
 
 	<li><dt>Mastère professionnel en banque, assurance et gestion de patrimoine</dt></li>
       <dd>Institut des Hautes Etudes Commerciale Sousse</dd>
@@ -46,14 +51,16 @@
     <li><dt>Formation en Anglais</dt></li>
     <dd>ECOLE DES LANGUES ET D'INFORMATIQUE POUR
         TOUS (ELIT)</dd>
+        </div>
 </ul>
 <br>
 <br>
 <a name="y"></a>
-<i><b>Expériences professionnelles:</b></i>
+<h3 class="title"><b>Expériences professionnelles:</b></h3>
 <ul type="circle">
     <br>
     <br>
+    <div class="box">
     <li><dt>Chef de bureau de vote</dt></li>
       <dd>Instance Supérieure Indépendante pour les Élections (ISIE)</dd>
    <li><dt>Stagiaire en assurance</dt></li>
@@ -62,12 +69,13 @@
     <dd>Entreprise Gloulou Med & Salem</dd>
     <li><dt>Stagiaire dans une banque</dt></li>
     <dd>Tunisian Saudi Bank (TSB)</dd>
+  </div>
 </ul>
  <a name="z"></a>
- <h3>Mes competences:</h3>
+ <h3 class="title"><b>Mes competences:</b></h3>
 <textarea name="message" cols="30" rows="20">
    
-    Mes Competences :
+ 
 *Maîtriser les caractéristiques des services, produits bancaires et assurances
 *Gestion de portefeuille
 *Gestion des assurances de personne et de prévoyance collective ….
@@ -81,7 +89,7 @@
 <br>
 <br>
 <br>
-<h1>informatique</h1> 
+<h3 class="title">informatique</h3> 
 power Point <progress value="75" max="100"></progress> 
 <br>
 
@@ -96,13 +104,31 @@ html <progress value="50" max="100"></progress>
 <h2> Ma meilleure musique : </h2>
 <br>
 <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/owL7zGyxfjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="460" height="315" src="https://www.youtube.com/embed/_Am3zVgrq18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+<br>
+
+
+<h3>Centres d'intérêt</h3>
+<div>
+ <b><i> <p class="b"> bénévoles </p></b></i>
+ <b><i><P class="c"> comptabilité</P></b></i>
+ <b><i><p class="d">documentaire</p> </b></i>
+<br> 
+<br>
+<br>
+</Div>
+<br>
+<br>
 <br>
 <br>
 <br>
 <a name="M"></a>
-<h3>contact:</h3>
+<h3 class="title"><b> contact</b></h3>
+<!-- fazet style nesta3malha fel html kif tabda andi khedma sghira mais kif tabda yacer paget nekhdmou fel css-->
+ 
+
+   
 <form>
     <label>Name:</label>
     <input type="text" name="first name" placeholder="Type your name here" />
